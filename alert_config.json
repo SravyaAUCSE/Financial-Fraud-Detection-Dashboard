@@ -1,0 +1,16 @@
+{
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "some@gmail.com",
+    "sender_password": "12345678",
+    "recipients": [
+        "admin@company.com"
+    ],
+    "alert_thresholds": {
+        "high_risk": 0.8,
+        "medium_risk": 0.6,
+        "low_risk": 0.3
+    },
+    "alert_cooldown_minutes": 30,
+    "max_alerts_per_hour": 10
+}
