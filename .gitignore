@@ -1,0 +1,70 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and local run files
+*.log
+*.tmp
+*.bak
+
+# Streamlit cache and settings
+.streamlit/
+.cache/
+.cache/*
+
+# Environment files
+.env
+.env.*
+
+# Data files
+data/*.csv
+data/*.xlsx
+data/*.json
+data/*.parquet
+data/raw/
+data/temp/
+*.db
+
+# Trained models
+models/*.pkl
+models/*.joblib
+models/*.sav
+*.h5
+*.pt
+
+# Alert configs or secrets
+config.json
+secrets.json
+
+# Python egg info
+*.egg-info/
+dist/
+build/
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+coverage.xml
+*.cover
+*.py,cover
